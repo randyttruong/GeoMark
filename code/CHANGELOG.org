@@ -1,0 +1,46 @@
+* Architecture of algorithm in ldp.py file 
+    ** Server-Side GDP -> GDPServer 	
+	*** NOTE: This will ultimately replace the OUEServer
+	*** Functions (based on curr. LDPServer + OUEServer objects): 
+	    - aggregate() (from LDPServer + OUEServer) 
+	    - adjust() (from LDPServer + OUEServer) 
+	    - adjust() (from LDPServer + OUEServer)
+	    - estimate() (from OUEServer) 
+
+    ** Client-Side GDP -> GDPClient   
+	*** NOTE: This will ultimately replace the OUEClient 
+	*** Functions (based on curr. LDPClient + OUEClient objects): 
+	    - _perturb() (from LDPClient + OUEClient) 
+	    - privatise() (from LDPClient + OUEClient) 
+	    - initialize() (from LDPClient)
+
+* Other places to alter implementation 
+    ** Challenges: 
+	- How should I go about implementing geo-indistinguishability into LDPTrace? 
+	    - More specifically, how does LDPTrace actually create grids? 
+		- Print out grid and see what is being created as well as how many grid points there actually are 
+		- Note that the grid map function (ie, the function that transforms a (longitude, latitude) pair into some index in the coordinate grid) generally results 
+    ** main.py 
+	- update_markov_prob() 
+	    - shifted oue -> gdp 
+	    - 
+
+    ** ldp.py
+	- General
+	    - Added an implementation from spo_anon project 
+	- OUEServer 
+	    - 
+	- OUEClient 
+
+	    -  
+	    
+
+
+# How does the original algorithm work? 
+* Step 0; Geospatial Discretization 
+    ** convert_raw_to_grid() - Converts the raw dataset into a space of equal-siezd grid cellls 
+* Step 1: 
+* Step 2: 
+* Step 3: 
+* Step 4: 
+
