@@ -1,6 +1,6 @@
 # GDPTrace 
 ## Introduction 
-Geomark aims to improve upon current state-of-the-art privacy preserving techniques through a combination of local differential privacy, geo-indistinguishability, and data synthesis. Geomark is a reimplmeentation of the trajectory synthesis mechanism defined in the paper 
+Geomark aims to improve upon current state-of-the-art privacy preserving techniques through a combination of local differential privacy, geo-indistinguishability, and data synthesis. Geomark is a reimplmentation of the trajectory synthesis mechanism defined in the paper 
 
 > Yuntao Du, Yujia Hu, Zhikun Zhang, Ziquan Fang, Lu Chen, Baihua Zheng and Yunjun Gao (2023). LDPTrace: Locally Differentially Private Trajectory Synthesis. Paper in arXiv or PVLDB. In VLDB'23, Vancouver, Canada, August 28 to September 1, 2023.
 
